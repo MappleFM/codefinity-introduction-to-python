@@ -18,6 +18,5 @@ for item, stock in inventory.items():
 		stocks[0] += stocks[2]
 	for item in range(len(inventory)):
 		if stocks[0] > discount_threshold:
-			stocks[3] == True	
+			stocks[3] = True	
 print("Processing completed")
-print(inventory)
